@@ -11,6 +11,11 @@ We use the **BioRED** and **METS-CoV** datasets for entity recognition and relat
 - BioRED GitHub: [https://github.com/ncbi/BioRED](https://github.com/ncbi/BioRED)
 - METS-CoV GitHub[https://github.com/YLab-Open/METS-CoV](https://github.com/YLab-Open/METS-CoV)
 
+## Model
+
+- **COVID-TWITTER-BERT**: [https://github.com/digitalepidemiologylab/covid-twitter-bert](https://github.com/digitalepidemiologylab/covid-twitter-bert)
+- **PubMedBERT**: A BERT model pre-trained on biomedical literature for enhanced domain knowledge.
+
 ## Knowledge Augmentation
 `benchmark/YATO/generate_entities.py`
 
