@@ -6,10 +6,12 @@ This repository provides the source code for **NCRF++**, an open-source neural s
 
 ##Knowledge Augmentation
 benchmark/YATO/generate_entities.py
+
 benchmark/YATO/tools/convert_csv2bio.py
+
 benchmark/YATO/generate_sentence.py
 
-##Training
+## Training
 benchmark/YATO/run.py
 
 
