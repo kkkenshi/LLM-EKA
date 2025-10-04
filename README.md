@@ -1,13 +1,17 @@
-## 步骤
- - 下载pretrained_model.zip并解压到COVID-CETS目录下
- - cd 到benchmark/YATO路径,执行run_plm.sh
+# LLM-EKA
 
-可能需要调整的参数：
+This repository provides the source code for **NCRF++**, an open-source neural sequence labeling framework, extended for knowledge augmentation and entity-aware language model training.
 
-iteration: 训练epoch数
+**NCRF++ Repository:** [https://github.com/jiesutd/NCRFpp](https://github.com/jiesutd/NCRFpp)  
 
-batchsize
+##Knowledge Augmentation
+benchmark/YATO/generate_entities.py
+benchmark/YATO/tools/convert_csv2bio.py
+benchmark/YATO/generate_sentence.py
 
-device：指定训练使用的GPU序号
+##Training
+benchmark/YATO/run.py
+
+
 
 
