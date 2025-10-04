@@ -12,11 +12,11 @@ We use the **BioRED** and **METS-CoV** datasets for entity recognition and relat
 - METS-CoV GitHub[https://github.com/YLab-Open/METS-CoV](https://github.com/YLab-Open/METS-CoV)
 
 ## Knowledge Augmentation
-- `benchmark/YATO/generate_entities.py
+`benchmark/YATO/generate_entities.py`
 
-- `benchmark/YATO/tools/convert_csv2bio.py
+`benchmark/YATO/tools/convert_csv2bio.py`
 
-- `benchmark/YATO/generate_sentence.py
+`benchmark/YATO/generate_sentence.py`
 
 ## Training
 benchmark/YATO/run.py
