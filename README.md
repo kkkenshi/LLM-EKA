@@ -1,6 +1,6 @@
 # LLM-EKA
 
-This repository provides the source code for **NCRF++**, an open-source neural sequence labeling framework, extended for knowledge augmentation and entity-aware language model training.
+This project is built on the NCRF++ framework.
 
 **NCRF++ Repository:** [https://github.com/jiesutd/NCRFpp](https://github.com/jiesutd/NCRFpp)  
 
