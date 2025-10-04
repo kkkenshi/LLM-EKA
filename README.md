@@ -6,7 +6,7 @@ This project is built on the NCRF++ framework.
 
 ## Dataset
 
-We use the **BioRED** and **METS-CoV** datasets for entity recognition and relation extraction tasks:
+We use the **BioRED** and **METS-CoV** datasets for entity recognition:
 
 - BioRED GitHub: [https://github.com/ncbi/BioRED](https://github.com/ncbi/BioRED)
 - METS-CoV GitHub[https://github.com/YLab-Open/METS-CoV](https://github.com/YLab-Open/METS-CoV)
