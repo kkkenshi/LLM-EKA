@@ -19,7 +19,7 @@ We use the **BioRED** and **METS-CoV** datasets for entity recognition and relat
 `benchmark/YATO/generate_sentence.py`
 
 ## Training
-benchmark/YATO/run.py
+`benchmark/YATO/run.py`
 
 
 
