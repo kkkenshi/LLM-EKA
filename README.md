@@ -4,7 +4,14 @@ This repository provides the source code for **NCRF++**, an open-source neural s
 
 **NCRF++ Repository:** [https://github.com/jiesutd/NCRFpp](https://github.com/jiesutd/NCRFpp)  
 
-##Knowledge Augmentation
+## Dataset
+
+We use the **BioRED** and **METS-CoV** datasets for entity recognition and relation extraction tasks:
+
+- BioRED GitHub: [https://github.com/ncbi/BioRED](https://github.com/ncbi/BioRED)
+- METS-CoV GitHub[https://github.com/YLab-Open/METS-CoV]
+
+## Knowledge Augmentation
 benchmark/YATO/generate_entities.py
 
 benchmark/YATO/tools/convert_csv2bio.py
