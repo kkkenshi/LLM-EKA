@@ -1,10 +1,10 @@
-from generate_entities import Vaccine_related, symptoms, Drugs, Disease, Organization, Person, Location
 import csv
 import ast
 import time
 import openai
 import random
 import os
+import json
 
 API_SECRET_KEY = "" #your api_key
 BASE_URL = ""
@@ -45,9 +45,18 @@ def extract_entities(labels):
         pass
     return entities
 
+with open("entity_lists.json", "r", encoding="utf-8") as f:
+    ENTITY_LISTS = json.load(f)
+
+Vaccine_related = ENTITY_LISTS.get("Vaccine-related", [])
+symptoms = ENTITY_LISTS.get("Symptom", [])
+Drugs = ENTITY_LISTS.get("Drug", [])
+Disease = ENTITY_LISTS.get("Disease", [])
+Organization = ENTITY_LISTS.get("Organization", [])
+Person = ENTITY_LISTS.get("Person", [])
+Location = ENTITY_LISTS.get("Location", [])
 
 csv_files = ['METS-CoV-train-origin.csv']
-
 for csv_file in csv_files:
     input_file_path = os.path.join(input_folder, csv_file)
     output_file_path = os.path.join(output_folder, f"output_{csv_file}")
