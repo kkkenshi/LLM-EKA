@@ -9,6 +9,7 @@ import re
 from typing import List
 API_SECRET_KEY = ""#your api_key
 BASE_URL = ""
+import json
 
 def clean_entity_list(entities: List[str]) -> List[str]:
     cleaned = []
@@ -99,11 +100,6 @@ def build_entity_lists():
 
 # global
 ENTITY_LISTS = build_entity_lists()
-Vaccine_related = clean_entity_list(ENTITY_LISTS.get("Vaccine-related", []))
-symptoms = clean_entity_list(ENTITY_LISTS.get("Symptom", []))
-Drugs = clean_entity_list(ENTITY_LISTS.get("Drug", []))
-Disease = clean_entity_list(ENTITY_LISTS.get("Disease", []))
-Organization = clean_entity_list(ENTITY_LISTS.get("Organization", []))
-Person = clean_entity_list(ENTITY_LISTS.get("Person", []))
-Location = clean_entity_list(ENTITY_LISTS.get("Location", []))
+with open("entity_lists.json", "w", encoding="utf-8") as f:
+    json.dump(ENTITY_LISTS, f, ensure_ascii=False, indent=2)
 
